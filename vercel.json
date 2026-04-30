@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "functions": {
+    "app/api/relay/[[...path]]/route.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "trailingSlash": false
+}
